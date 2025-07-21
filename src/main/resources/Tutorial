@@ -1,0 +1,31 @@
+Base64 Encoding Application Tutorial
+
+This Java Swing application provides a simple GUI for encoding text messages into Base64 format. Here's how it works:
+
+1. Window Setup
+- The application creates a window titled "Codifica il messaggio Base64"
+- Window size is fixed at 300x200 pixels
+- Window appears centered on screen
+
+2. GUI Components
+- Text Field: Located at the top for entering the message
+- "Codifica" (Encode) Button: Below the text field
+- Result Label: Displays the encoded message
+  - Click to copy the encoded text
+  - Visual feedback with light green background when updated
+  - Mouse cursor changes to hand when hovering
+
+3. Core Functionality
+- Enter text in the input field
+- Click "Codifica" to convert the text to Base64
+- Empty input shows an error message
+- Click the encoded result to copy to clipboard
+- Confirmation message appears when text is copied
+
+4. Technical Details
+- Uses Java's built-in Base64 encoder
+- UTF-8 character encoding
+- Swing components for GUI
+- System clipboard integration for copy functionality
+
+The application provides a user-friendly interface for Base64 encoding with visual feedback and convenient copy feature.
