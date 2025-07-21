@@ -33,7 +33,7 @@ public class Main {
             JLabel label = new JLabel(Messaggio.getText());
             label.setHorizontalAlignment(JLabel.CENTER);
             label.setVerticalAlignment(JLabel.CENTER);
-            label.setFont(new java.awt.Font("Tahoma", 0, 14));
+            label.setFont(new java.awt.Font("Arial", 0, 14));
             label.setForeground(new java.awt.Color(0, 0, 0));
             label.setOpaque(true);
 
